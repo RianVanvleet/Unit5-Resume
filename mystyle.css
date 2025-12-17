@@ -1,0 +1,55 @@
+/* style sheet for Rian Vanvleet's personal resume website
+	// COLOR SCHEME //
+	Umber #624D3E
+	Beaver #8D7869
+	Silver #BEC3C5
+	Coyote #836D5E
+	Cadet-Gray #A6B4BF
+	*/
+
+<link href="/normalize.css" rel="stylesheet">
+
+<style>
+    body {background-color:#BEC3C5}
+    header {
+      text-align: center;
+      background: url('Images/SilverLake.jpeg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: white;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    } @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+    }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>

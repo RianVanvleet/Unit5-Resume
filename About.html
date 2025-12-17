@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="mystyle.css">
+  
+<!--Color Scheme
+	Umber #624D3E
+	Beaver #8D7869
+	Silver #BEC3C5
+	Coyote #836D5E
+	Cadet-Gray #A6B4BF
+	-->
+
+<style>
+    body {background-color:#BEC3C5}
+    header {
+      text-align: center;
+      background: url('Images/SilverLake.jpeg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: white;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    .post-content {
+	display: flex;
+	align-items: flex-start;
+	gap: 20px;
+    }
+    .profile-image {
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	border: 5px solid white;
+	flex-shrink: 0;
+    }
+    .post-text {
+	flex-grow: 1;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="Images/School.jpeg">
+    <h1>Rian Vanvleet</h1>
+    <ul>
+      <li><a href="About.html">About</a></li>
+      <li><a href="Education.html">Education</a></li>
+      <li><a href="Experience.html">Experience</a></li>
+      <li><a href="References.html">References</a></li>
+      <li><a href="Contact info.html">Contact Info</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Where I'm From</h2>
+    <div class="post-content">
+	<img src="Images/profile1.jpeg" alt="Profile 1" class="profile-image">
+	<div class="post-text">
+    	  <p>While I live in Kentucky, I was originally born in Holland, Michigan. I ended up moving down here about halfway through the fifth grade. The reason me and my family (Mom, Sister, Stepdad) moved here was for both job opporunities and to be closer to my Mothers parents.</p>
+	</div>
+     </div>
+  </article>
+  <article>
+    <h2>Passions</h2>
+    <div class="post-content">
+	<img src="Images/profile2.jpeg" alt="Profile 2" class="profile-image">
+	<div class="post-text">
+    	  <p>All my life I have been passionate about a few main things, Music, Art, the Detroit Lions, Video Games, and Technology. </p>
+	 </div>
+     </div>
+  </article>
+  <article>
+    <h2>Goals</h2>
+    <div class="post-content">
+	<img src="Images/profile3.jpeg" alt="Profile 3" class="profile-image">
+	<div class="post-text">
+          <p>I have two main paths in life I want to take. For path one I want to go to college (preferably Murray State) for some sort of cyber security degree, Get a high paying job in the tech field, And be able to provide for my family. For path two I want to go to Murray State for Studio Art, Get a few pieces accepted into art shows, Make a Youtube channel focused around art and inspiring other young artists to make art and do what they are passionate about, and make sculputes and murals to better my community.</p>
+	</div>
+     </div>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
